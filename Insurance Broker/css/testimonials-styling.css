@@ -1,0 +1,165 @@
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.quote {
+  color: rgba(0, 0, 0, .1);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+
+/*    Carousel Fade Transition   */
+
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 70px;
+  margin-top: -40px;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -ms-transition-property: opacity;
+  transition-property: opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators>li {
+  background-color: #1F3E50;
+  border: none;
+}
+
+#fade-quote-carousel blockquote {
+  text-align: center;
+  border: none;
+}
+
+#fade-quote-carousel .profile-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 100px;
+}
+
+blockquote p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #444444;
+}
+
+    .testimonial-head h4 {
+      font-size: 40px;
+      margin-top: 22px;
+      color: #ffffff;
+      padding-bottom: 20px;
+      padding-top: 10px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .testimonials {
+      background-image: url(../images/insurance-broker-testimonials.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .testimonials h4 {
+      font-family: 'Montserrat', sans-serif !important;
+      color: #626466 !important;
+      font-weight: bold;
+      font-size: 40px;
+      padding-top: 70px;
+      margin-top: 40px;
+    }
+    
+
+    /* Smartphones (portrait and landscape) ----------- */
+
+    @media only screen and (max-width: 480px) {
+      .testimonials {
+        background-image: url(../images/insurance-broker-testimonials-mobile.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -60px;
+      }
+      .testimonials h4 {
+        font-size: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .testimonial-head h4 {
+        font-size: 30px;
+        margin-top: -10px;
+        color: #ffffff;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      .testimonial-head {
+        background-color: #4E686B;
+        height: auto;
+      }
+      blockquote p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: #444444;
+        padding-bottom: 60px !important;
+      }
+      .quote-div {
+        min-height: 400px !important;
+      }
+      .icon-controlers li {
+        position: relative;
+        top: -30px !important;
+      }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 1024px) {
+      blockquote p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+        color: #444444;
+      }
+      .quote-div {
+        margin-top: -60px !important;
+        padding-top: 60px;
+        max-height: 700px !important;
+      }
+      .icon-controlers li {
+        position: relative;
+        top: 0px !important;
+      }
+    }
+
+    /* Large screens ----------- */
+
+    @media only screen and (min-width: 1824px) {
+      .testimonials h4 {
+        font-size: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+
+    }

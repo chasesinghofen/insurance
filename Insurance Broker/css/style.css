@@ -1,0 +1,688 @@
+#display-banner {
+	background-image: url(../images/insurance-broker-display-image.jpg);
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.queries {
+	margin-top: -20px;
+}
+
+.clients {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.tfblink {
+	color: grey;
+}
+
+.trading {
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 768px) {
+	.seven-cols .col-md-1, .seven-cols .col-sm-1, .seven-cols .col-lg-1 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.seven-cols .col-md-1, .seven-cols .col-sm-1, .seven-cols .col-lg-1 {
+		width: 14.285714285714285714285714285714%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.seven-cols .col-md-1, .seven-cols .col-sm-1, .seven-cols .col-lg-1 {
+		width: 14.285714285714285714285714285714%;
+	}
+}
+
+.terms {
+	padding-bottom: 100px;
+}
+
+.terms p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	color: #606060;
+}
+
+.terms h2 {
+	padding-top: 50px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	color: #515151;
+	font-weight: bold;
+}
+
+.insurance-option {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.insurance-option h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #46556D;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.insurance-option p {
+	color: #46556D;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+
+.insurance-option button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #46556D;
+	font-weight: bold;
+	padding: 15px 15px 18px 15px;
+	background-color: #FFF000;
+	border-radius: 0;
+}
+
+#insurance-company-features {
+	background-color: #FBF9FB;
+	background-image: url(../images/insurance-company-features.jpg);
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#insurance-company-features p {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+#benefitpoints {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.glyphicon-ok {
+	color: #5AB44C;
+	font-size: 30px;
+	padding-right: 10px;
+}
+
+#brokerinfo {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.side-text {
+	padding-top: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+.insurance-companies {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.insurance-companies img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.side-text p {
+	color: #46556D;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.queries {
+	background-color: #46556D;
+	height: auto
+}
+
+.queries h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.call-back {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #46556D;
+	padding: 10px 20px 10px 20px;
+	background-color: #FFF000;
+	border-radius: 0;
+	border-color: #FFF000;
+	width: 30%;
+}
+
+#contact-form {
+	padding-bottom: 50px;
+}
+
+.form-control {
+	max-width: 400px;
+	border-radius: 0;
+	height: 60px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+hr {
+	display: block;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0));
+}
+
+.question {
+	color: #435060;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.answer {
+	color: #435060;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.fine-print {
+	padding-top: 50px;
+}
+
+.fine-print p {
+	color: #435060;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+}
+
+.insurance-img {
+	background-image: url(../images/insurance-img.jpg);
+	height: 400px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+
+/*---- ABOUT PAGE STYLING ---- */
+
+.about-banner {
+	background-image: url(../images/about-insurance-broker-image.jpg);
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-description h2 {
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	color: #494949;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.about-description {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #686868;
+	line-height: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.contact-email {
+	font-family: 'Montserrat', sans-serif;
+	color: #46556D;
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+
+/*---- RESOURCE PAGE STYLING ---- */
+.resources h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #46556D;
+	font-weight: bold;
+	font-size: 45px;
+	padding-top: 40px;
+}
+
+.resources p {
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.resources img {
+	padding-top: 100px;
+	width: 40%;
+}
+
+.insurance-resources {
+	margin-top: -50px !important;
+}
+
+.resources {
+	padding-bottom: 120px;
+}
+
+/*Home Insurance Page Styling*/
+
+.insurance-car-img {
+	background-image: url(../images/insurance-car-img.jpg);
+	height: 350px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+.insurance-home-img {
+	background-image: url(../images/insurance-home-img.jpg);
+	height: 350px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+#home-insurance-banner {
+	background-image: url(../images/home-insurance-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	margin-top: -20px;
+	background-position: center center;
+}
+
+#home-insurance-banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 60px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#result {
+	font-size: 23px !important;
+	font-weight: bold !important;
+	text-align: center !important;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.alert {
+	font-size: 23px !important;
+	font-weight: bold !important;
+	font-family: 'Montserrat', sans-serif !important;
+	text-align: center !important;
+}
+
+.faq-homes {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.faq-homes h2 {
+	color: #435060;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+/*Car Insurance Page Styling*/
+
+#car-insurance-banner {
+	background-image: url(../images/car-insurance-banner-image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	margin-top: -20px;
+}
+
+#car-insurance-banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 60px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+
+.faq-cars {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.faq-cars h2 {
+	color: #435060;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+/*Combined Insurance Page Styling*/
+
+#combined-insurance-banner {
+	background-image: url(../images/home-insurance-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	margin-top: -20px;
+	background-position: center center;
+}
+
+#combined-insurance-banner{
+	background-image: url(../images/home-insurance-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	margin-top: -20px;
+	background-position: center center;
+}
+
+#combined-insurance-banner h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 60px;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+
+.combined-insurance-sa {
+	background-image: url(../images/combined-insurance-sa.jpg);
+	height: 320px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin-top: -20px;
+}
+
+.faq-combined {
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+
+.faq-combined h2 {
+	color: #435060;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 480px) {
+	#display-banner {
+		background-image: url(../images/insurance-broker-display-image-mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-size: 100% 100%;
+		height: 300px;
+	}
+
+	.about-banner {
+		background-image: url(../images/about-insurance-broker-image-mobile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-size: 100% 100%;
+	}
+
+	.insurance-option {
+		margin-top: -80px;
+	}
+
+	.fine-print p {
+		color: #435060;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-size: 18px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	#home-insurance-banner h1 {
+		font-size: 50px;
+	}
+
+	#car-insurance-banner h1 {
+		font-size: 50px;
+	}
+
+	#combined-insurance-banner h1 {
+		font-size: 50px;
+	}
+
+	.insurance-option button {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		color: #46556D;
+		font-weight: bold;
+		padding: 12px 10px 20px 15px;
+		background-color: #FFF000;
+		border-radius: 0;
+	}
+
+	.side-text {
+		padding-top: 30px;
+		padding-bottom: 100px;
+	}
+
+	#brokerinfo {
+		padding-bottom: 50px;
+	}
+
+	.form-control {
+		width: 85%;
+	}
+
+	.call-back {
+		width: 85%;
+	}
+
+	.insurance-option img {
+		padding-top: 50px;
+	}
+
+	#insurance-company-features p {
+		font-size: 17px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#insurance-company-features {
+		background-image: url(../images/insurance-company-features-mobile.jpg);
+	}
+
+	.insurance-companies {
+		margin-top: -40px;
+	}
+
+	.home-companies {
+		margin-top: -50px !important;
+	}
+
+	.insurance-companies img {
+		max-width: 60%;
+		max-height: 60%;
+	}
+
+	.call-back {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 22px;
+	}
+
+	.combined-insurance-sa {
+		background-image: url(../images/combined-insurance-sa-mobile.jpg);
+		height: 400px;
+		background-attachment: scroll;
+	}
+
+	.no-display {
+		display: none;
+	}
+
+	.insurance-img {
+		background-image: url(../images/insurance-img-mobile.jpg);
+		height: 300px;
+	}
+	
+	.insurance-car-img {
+		background-image: url(../images/insurance-car-img-mobile.jpg);
+		height: 300px;
+	}
+	
+	.insurance-home-img {
+		background-image: url(../images/insurance-home-img-mobile.jpg);
+		height: 300px;
+	}
+
+	.resources img {
+	padding-top: 100px;
+	width: 100%;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+	#display-banner {
+		background-image: url(../images/insurance-broker-display-image-tab.jpg);
+	}
+	.about-banner {
+		background-image: url(../images/about-insurance-broker-image-mobile.jpg);
+	}
+	.insurance-img {
+		background-image: url(../images/insurance-img-tab.jpg);
+	}
+	.insurance-car-img {
+		background-image: url(../images/insurance-car-img-tab.jpg);
+	}
+
+	.home-insurance-sa {
+		background-image: url(../images/home-insurance-sa-tab.jpg);
+		height: 400px;
+		background-attachment: scroll;
+	}
+	.combined-insurance-sa {
+		background-image: url(../images/combined-insurance-sa-tab.jpg);
+		height: 400px;
+		background-attachment: scroll;
+	}
+	#insurance-company-features {
+		background-image: url(../images/insurance-company-features-tab.jpg);
+	}
+	#insurance-company-features p {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 18px;
+		line-height: 20px;
+		letter-spacing: 1px !important;
+	}
+	.insurance-companies img {
+		max-width: 25%;
+		max-height: 25%;
+	}
+	.form-control {
+		width: 55%;
+	}
+	.call-back {
+		width: 55%;
+	}
+	
+	/* Home Insurance Page */
+	.insurance-home-img {
+		background-image: url(../images/insurance-home-img-tab.jpg) !important;
+		height: 300px;
+	}
+
+	.resources img {
+	width: 60%;
+}
+
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+	#display-banner {
+		background-image: url(../images/insurance-broker-display-image.jpg);
+	}
+	.about-banner {
+		background-image: url(../images/about-insurance-broker-image.jpg);
+	}
+	.insurance-img {
+		background-image: url(../images/insurance-img.jpg);
+	}
+	.side-text {
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+	.car-insurance-sa {
+		background-image: url(../images/car-insurance-sa.jpg);
+	}
+	.home-insurance-sa {
+		background-image: url(../images/home-insurance-sa.jpg);
+		height: 400px;
+		background-attachment: scroll;
+	}
+	.combined-insurance-sa {
+		background-image: url(../images/combined-insurance-sa.jpg);
+		height: 400px;
+		background-attachment: scroll;
+	}
+	.insurance-companies img {
+		max-width: 100%;
+		max-height: 100%;
+		padding-top: 30px;
+	}
+	.form-control {
+		width: 40%;
+	}
+	.call-back {
+		width: 40%;
+	}
+}

@@ -1,0 +1,358 @@
+.contact-banner-div {
+	background-image: url(../images/insurance-img.jpg);
+	height: 400px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.free-quote-banner {
+	background-image: url(../images/free-quote-banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 450px;
+	margin-top: -20px;
+}
+
+.conwidth {
+	max-width: 850px;
+}
+
+.speedup-note {
+	background-color: #FEFAB1;
+	color: #4B5463;
+	font-size: 14px !important;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+}
+
+.speedup-note a:hover {
+	text-decoration: none !important;
+	color: #9e9e9e;
+}
+
+.speedup-note a {
+	color: #4B5463;
+	font-weight: bold;
+	font-size: 18px !important;
+}
+
+textarea {
+	height: 20% !important;
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+	margin-bottom: -1px !important;
+	border-radius: 0 !important;
+	height: 120px !important;
+}
+
+.free-quote-banner h3 {
+	font-size: 55px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+	position: relative;
+	top: 140px;
+	font-weight: bold;
+}
+
+.free-quote-banner p {
+	font-size: 22px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+	letter-spacing: 1px;
+	position: relative;
+	top: 140px;
+}
+
+.questionnaire h2 {
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: #474747;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.questionnaire p {
+	font-size: 18px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #494949;
+	padding-bottom: 20px;
+}
+
+.insurance-form {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 26px !important;
+	color: #46556D;
+	background-color: #efe004;
+	font-weight: bold;
+	padding: 10px 35px 10px 35px;
+	border-radius: 0;
+	border: none;
+}
+
+.insurance-form:hover, .insurance-form:focus, .insurance-form:active, .insurance-form.active, .open>.dropdown-toggle .insurance-form {
+	color: #ffffff;
+	border: none;
+}
+
+#insurance-form button:active:focus {
+	color: #ffffff;
+	border: none;
+}
+
+
+.get-quote-form {
+	border-radius: 0px;
+	margin-top: 0px;
+}
+
+.center-block {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.input-group .icon-addon .form-control {
+	border-radius: 0;
+}
+
+
+.glyphicon {
+	color: #46556D;
+}
+
+.message-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px !important;
+	letter-spacing: 1px;
+	color: #46556D;
+	background-color: #ffffff !important;
+}
+
+a:hover {
+	text-decoration: none !important;
+	color: #e5e5e5;
+}
+
+form p {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 25px;
+	color: #616161;
+	line-height: 45px;
+	position: relative;
+	top: 30px;
+}
+
+form {
+	padding: 40px;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+input {
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+	margin-bottom: -1px !important;
+	border-radius: 0 !important;
+	height: 60px !important;
+}
+
+select {
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+	margin-bottom: -1px !important;
+	border-radius: 0 !important;
+	height: 60px !important;
+}
+
+option {
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif !important;
+	color: #3f3f3f;
+}
+
+.disabled {
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+}
+
+#message {
+	font-size: 16px !important;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+}
+
+option {
+	color: #565656 !important;
+}
+
+label {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #3f3f3f;
+	margin-bottom: -1px !important;
+	margin-left: 5px;
+}
+
+.form-question {
+	font-size: 16px !important;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #41526b !important;
+	padding-bottom: 8px;
+	padding-top: 30px;
+}
+
+.form-group {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.quote-submit {
+	background-color: #FDF003;
+	color: #46556D;
+	border-color: #FDF003;
+	font-weight: bold;
+	border-radius: 0;
+	height: auto;
+	padding-bottom: 45px !important;
+	font-size: 28px !important;
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	top: 8px !important;
+	border: 6px solid #FDF003;
+}
+
+.quote-submit:hover, .quote-submit:focus, .quote-submit:active, .quote-submit.active, .open>.dropdown-toggle .quote-submit {
+	color: #46556D;
+	background-color: #ffffff;
+	border: 6px solid #FDF003;
+	font-size: 24px;
+}
+
+.quote-submit:active:focus {
+	color: #46556D;
+	background-color: #ffffff;
+	border: 5px solid #FDF003;
+}
+
+.get-social {
+	background-color: #5B616C;
+}
+
+.social-links {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+.testimonials {
+	margin-top: -40px;
+}
+
+.submission-form {
+
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen 
+and (max-width: 480px) {
+
+
+	.contact-banner-div {
+		background-image: url(../images/insurance-img-mobile.jpg);
+		height: 300px;
+	}
+	.quote-submit {
+		font-size: 20px !important;
+		font-family: 'Montserrat', sans-serif;
+		position: relative;
+		top: 0px !important;
+		left: 0 !important;
+		padding: 5px;
+		padding-bottom: 8px !important;
+	}
+
+	form {
+	padding-top: 40px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 40px;
+
+}
+
+.insurance-form {
+	font-size: 22px !important;
+	padding: 10px;
+}
+
+
+
+}
+
+@media only screen 
+and (min-width: 480px) 
+and (max-width: 1024px) {
+
+
+	.contact-banner-div {
+		background-image: url(../images/insurance-img-tab.jpg);
+		height: 300px;
+	}
+
+	.form-group {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.submission-form {
+	width: 80%;
+}
+
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1200px) 
+and (orientation: landscape) {
+
+	
+	.contact-banner-div {
+		background-image: url(../images/insurance-img.jpg);
+	}
+	.free-quote-banner {
+		background-image: url(../images/free-quote-banner.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 400px;
+		margin-top: -20px;
+	}
+
+	form {
+	padding-top: 40px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 40px;
+
+}
+
+}
